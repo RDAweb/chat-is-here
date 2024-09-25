@@ -20,7 +20,7 @@ const response=await fetch(Api_url,{
   body:JSON.stringify({
     contents:[{
       "role": "user",
-      "parts":[{text:`${userMessage} in 10 words`}]
+      "parts":[{text:`${userMessage} in 300>1000 words`}]
     }]
   })
 })
